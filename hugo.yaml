@@ -4,11 +4,10 @@ title: Goldydocs
 # cSpell:ignore goldmark github hugo readingtime docsy subdir lastmod pygments linenos catmullrom norsk gu slugorcontentbasename
 
 # Language settings
-contentDir: content/en
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: false
 # Useful when translating.
-enableMissingTranslationPlaceholders: true
+enableMissingTranslationPlaceholders: false
 
 enableRobotsTXT: true
 
@@ -55,8 +54,17 @@ imaging:
 
 # Language configuration
 languages:
+  pt:
+    languageName: Portuguese
+    contentDir: content/pt
+    title: Goldydocs
+    params:
+      description: Um sitio Web Docsy
+      time_format_default: 02.01.2006
+      time_format_blog: 02.01.2006
   en:
     languageName: English
+    contentDir: content/en
     title: Goldydocs
     params:
       description: A Docsy example site
@@ -71,8 +79,7 @@ languages:
       time_format_blog: 02.01.2006
   fa:
     languageDirection: rtl
-    #languageName: 'فارسی (Persian)'
-    languageName: Portuguese
+    languageName: 'فارسی (Persian)'
     contentDir: content/fa
     title: 'اسناد گلدی'
     params:
