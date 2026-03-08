@@ -71,7 +71,8 @@ languages:
       time_format_blog: 02.01.2006
   fa:
     languageDirection: rtl
-    languageName: 'فارسی (Persian)'
+    #languageName: 'فارسی (Persian)'
+    languageName: Portuguese
     contentDir: content/fa
     title: 'اسناد گلدی'
     params:
